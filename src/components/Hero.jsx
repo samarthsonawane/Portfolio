@@ -7,7 +7,7 @@ function Hero() {
     <section id="hero" className="hero-section">
       <div className="hero-content" data-aos="fade-up">
         <div className="hero-text">
-          <h1>Hello, I'm <span className="highlight">Your Name</span></h1>
+          <h1>Hello, I'm <span className="highlight">Samarth Sonawane</span></h1>
           <h2>Full Stack Developer | Problem Solver</h2>
           <p>
             I create modern, responsive, and visually appealing web applications.
