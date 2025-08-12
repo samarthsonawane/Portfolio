@@ -1,0 +1,58 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply Google Font from index.html */
+body {
+  font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark modern background */
+  color: #ffffff; /* White text */
+  line-height: 1.6;
+}
+
+/* Smooth scroll for nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links default style */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container helper class */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4a3d;
+  transform: translateY(-2px);
+}

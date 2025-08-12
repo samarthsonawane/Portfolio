@@ -1,0 +1,38 @@
+/* Fullscreen black background with animated blue gradients */
+.portfolio-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000; /* base */
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Gradient wave overlay */
+.portfolio-background::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(0, 191, 255, 0.4), transparent 70%),
+              radial-gradient(circle at 30% 70%, rgba(30, 144, 255, 0.3), transparent 60%),
+              radial-gradient(circle at 70% 30%, rgba(0, 255, 255, 0.35), transparent 65%);
+  animation: moveGradient 15s ease-in-out infinite alternate;
+  filter: blur(100px);
+}
+
+/* Smooth floating movement */
+@keyframes moveGradient {
+  0% {
+    transform: translate(-10%, -10%) rotate(0deg);
+  }
+  50% {
+    transform: translate(10%, 10%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-10%, -10%) rotate(360deg);
+  }
+}

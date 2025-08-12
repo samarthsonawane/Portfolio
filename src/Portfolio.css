@@ -1,0 +1,114 @@
+/* Portfolio.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.header {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: white;
+  color: #3b82f6;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.section p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills span {
+  background: #e2e8f0;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #3b82f6;
+}
+
+.dark {
+  background-color: #f0f4f8;
+}
+
+.socials a {
+  margin: 10px;
+  text-decoration: none;
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+}
